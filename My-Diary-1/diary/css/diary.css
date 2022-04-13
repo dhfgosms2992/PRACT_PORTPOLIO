@@ -1,0 +1,74 @@
+*{
+    text-decoration: none;
+    color:black;
+    margin:0;
+    padding:0;
+}
+.container {
+    width: 1400px;
+    margin: 0 auto;
+    
+    
+}
+
+.container .diary {
+    width: 1600px;
+    position: absolute;
+    height: auto;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    background-color: #ddd;
+
+}
+
+.container .diary .diary_fixed {
+    position: fixed;
+}
+
+.container .diary .diary_inner {
+    position: relative;
+    
+}
+
+.container .diary h1 {
+    padding:10px 20px;
+    
+}
+
+.container .diary h2 {
+    padding: 20px;
+}
+
+.container .diary .diary_inner p {
+    padding: 10px;
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.container .diary p.scroll {
+    overflow: scroll;
+}
+
+.container p.btn {
+    position: absolute;
+    top:10px;
+    right:10px;
+    background-color: cornflowerblue;
+    color:black;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all 1s ease;
+}
+
+
+.container p.btn a {
+    font-size: 20px;
+    
+}
+
+.container p.btn:hover a,
+.container p.btn:hover i {
+    color:white;
+}

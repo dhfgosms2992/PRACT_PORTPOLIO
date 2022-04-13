@@ -1,0 +1,137 @@
+/* reset */
+*{
+    margin: 0; padding: 0;
+    text-transform: capitalize;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, tbody, tfoot, thead, tr, th, td{margin:0;padding:0;}
+h1, h2, h3, h4, h5, h6 {font-weight: 700; font-size: inherit;}
+a {text-decoration: inherit; color: inherit;}
+li {list-style: none;}
+img {vertical-align: middle;}
+a img {border: none;}
+address, em, i {font-style: normal;}
+ 
+
+/* wrap */
+
+.wrap {
+    width: 100%;
+    
+}
+
+
+
+
+.div_box {
+    background-color:#ddd;
+    width: 50%;
+    height: 400px;
+    /* border: 1px solid red; */
+    margin:50px auto;
+    padding: 10px;
+    box-sizing: border-box;
+    position: relative;
+    
+}
+
+.div_box .text_box {
+    width: 30%;
+    height: 40%;
+    position: absolute;
+    top:30px;
+    right:50px;
+    padding: 30px;
+    box-sizing: border-box;
+    overflow: scroll;
+    
+}
+
+
+
+.div_box .circle_box {
+    
+    position: absolute;
+    right:40px;
+    top:200px;
+    
+}
+
+.div_box .circle_box .circle {
+    float:left;
+    width: 100px;
+    height: 100px;
+    margin:10px 5px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+}
+
+
+.div_box .circle_box .color_1 {
+    background-color:red;
+}
+
+
+.div_box .circle_box .color_2 {
+    background-color:orange;
+}
+
+.div_box .circle_box .color_3 {
+    background-color:purple;
+}
+
+
+.div_box .circle_box .circle p {
+    color:white;
+    position: absolute;
+    text-align: center;
+    top:10px;
+    left:50px;
+    transform: translate(-50%,50%);
+}
+
+
+
+.div_box a p.img {
+    width: 60%;
+    height: 320px;
+    overflow: hidden;
+    
+}
+
+.div_box a p.img img {
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+
+.div_box a p button.btn {
+    background-color: cornflowerblue;
+    border:0;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    margin: 20px;
+    cursor: pointer;
+    font-size:20px;
+}
+
+.div_box a:hover p button.btn {
+    color:white;
+}
+
+/* media screen max-width 1200px 
+   미디어 스크린 영역
+*/
+@media screen and (max-width: 1200px){
+    .div_box {
+        width: 100%;
+    }
+
+    .div_box .text_box  {
+        width: 39%;
+        right:5px;
+    }
+}

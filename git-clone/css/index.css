@@ -1,0 +1,344 @@
+* {
+    margin: auto;
+    padding: 0;
+    text-transform: capitalize;
+}
+
+
+li {list-style-type: none;}
+
+a {text-decoration: none;}
+
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    background-color: #ddd;
+}
+
+.clearfix::before,
+::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 50px;
+    background-color: #dff9fb;
+    color: #130f40;
+    margin-bottom: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    font-family: 'Nanum Pen Script', cursive;
+}
+
+
+ button:hover {
+    background-color: #30336b;
+    color: white;
+}
+
+/* nav */
+nav {
+    width: 100%;
+    max-height: 60px;
+    background-color: #95afc0;
+    box-sizing: border-box;
+    position: sticky;
+}
+
+
+
+
+
+nav input {
+    width: 250px;
+    height: 30px;
+    margin-left: 20px;
+}
+
+
+.float-right {
+    width: 250px;
+    height: auto;
+    float: right;
+    box-sizing: border-box;
+    margin-top: 3px;
+}
+
+
+.float-right img {
+    width: 50px;
+}
+
+nav ul li {
+    display: inline-block;
+
+}
+
+nav ul {
+    padding: 5px;
+    float: left;
+}
+
+nav .div {
+    width: 100%;
+    margin: 10px
+}
+
+
+
+
+h3 {
+    display: inline-block;
+    text-indent: -9999px;
+}
+
+nav ul img {
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+
+}
+
+
+
+
+
+
+nav ul li a {
+
+    color: white;
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    box-sizing: border-box;
+    text-align: center;
+    
+    font-size: 20px;
+    text-transform: capitalize;
+    cursor: pointer;
+    margin: 10px;
+
+}
+
+nav ul li a:hover {
+    color: #30336b;
+}
+
+/* header */
+
+
+
+
+.profile .name {
+    width: 400px;
+    float: left;
+    background-color: chocolate;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-top: 10px;
+
+    box-sizing: border-box;
+
+}
+
+header {
+    font-family: 'Nanum Pen Script', cursive;
+}
+
+header h2 {
+    display: inline-block;
+    padding: 3px;
+}
+
+
+
+header .btn {
+    float: right;
+    width: 400px;
+    height: auto;
+    background-color: crimson;
+    margin-top: 10px;
+    box-sizing: border-box;
+    padding-top: 10px;
+
+}
+
+header .btn button {
+    margin-left: 20px;
+}
+
+header ul {
+    margin-top: 10px;
+}
+
+header ul li {
+    
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    font-size:20px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+/* section */
+section {
+    max-width: 1800px;
+    margin:0 auto;
+    height: 900px;
+    background-color: yellow;
+    font-family: 'Nanum Pen Script', cursive;
+}
+
+
+section .code {
+    float:left;
+    width: 60%;
+    height: 100%;
+    background-color: darkblue;
+}
+
+section li {
+    display: inline-block;
+    margin: 10px;
+}
+
+section button {
+    border-radius: 10px !important;
+}
+
+
+section .main {
+    width: 90%;
+    height: 400px;
+    background-color: darkcyan;
+    box-sizing: border-box;
+}
+
+
+section .main .info {
+    width: 100%;
+    height: 50px;
+    background-color: darkgoldenrod;
+}
+
+section .main .info .none  {
+    margin-top:10px;
+    display: inline-block !important;
+    float:right !important;
+    
+}
+
+section .main .info .none li {
+    border-bottom: 0;
+}
+
+
+section .main li {
+    display: block !important;
+    border-bottom: 1px solid black;;
+}
+
+
+section .main .info h2 {
+    display:inline-block !important;
+    width: 240px;
+    background-color: darkmagenta;
+    margin-top: 10px;
+    margin-left:10px;
+}
+
+
+
+section .main .info li {
+    display: inline-block !important;
+}
+
+
+
+section .readme {
+    margin-top: 30px;
+    width: 90%;
+    height: 300px;
+    background-color: darkolivegreen;
+}
+
+section .readme h2 {
+    padding: 20px;
+    border-bottom: 1px solid black;;
+}
+section .about {
+    float:left;
+    width: 40%;
+    height: 100%;
+    background-color: red;
+}
+
+section .about ul {
+    float:right;
+}
+
+
+section .about .btn:hover {
+    background-color: #6ab04c !important;
+}
+
+
+section .about_1 {
+    margin-top:70px;
+    width: 90%;
+    height: 250px;
+    /* background-color: dodgerblue; */
+    border-bottom: 1px solid black;;
+}
+
+section .about_1 h2 {
+    padding: 10px;
+}
+
+section .about_1 ul {
+    float:left;
+}
+
+section .about_1 li {
+    font-size: 20px;
+    display: block;
+}
+
+section .about_2 {
+    margin-top:10px;
+    width: 90%;
+    height: 160px;
+    background-color: pink;
+}
+
+section .about_3 {
+    margin-top:10px;
+    width: 90%;
+    height: 120px;
+    background-color: pink;
+}
+
+section .about_4 {
+    margin-top:10px;
+    width: 90%;
+    height: 100px;
+    background-color: darkslategrey;
+}
+
+
+/* footer */
+footer {
+    width: 100%;
+    height: 200PX;
+    background-color: cyan;
+}

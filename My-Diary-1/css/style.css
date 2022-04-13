@@ -1,0 +1,105 @@
+* {
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    margin:0;
+    padding:0;
+}
+
+.container {
+    width: 1600px;
+    height: auto;
+    margin: 0 auto;
+   
+}
+
+
+
+
+ section.diary {
+   
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+
+
+section.diary ul {
+   width: 100%;
+   height: auto;
+   margin-left:20px;
+    /* overflow:hidden 속성으로 가림 */
+   overflow: hidden;
+   padding: 50px;
+   box-sizing: border-box;
+
+}
+
+ h1 {
+    width: 1360px;
+    margin: 0 20px;
+    padding: 10px;
+    background-color: cornflowerblue;
+    color:white;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+section.diary ul h2 {
+    text-align: center;
+    transition: all 0.9s ease;
+    font-size: 1.2rem;
+}
+
+section.diary ul h2 b {
+    color:red;
+    font-size:16px;
+}
+
+
+section.diary ul li {
+    
+    margin: 20px;
+    float:left;
+    width: calc(80%/5);
+    
+}
+
+section.diary ul li.card {
+    transition: all 0.9s ease;
+    overflow: hidden;
+    background-color: cornflowerblue;
+    
+}
+
+section.diary li img {
+    width: 100%;
+    height: 100%;
+}
+
+section.diary ul li.card  p.btn {
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: cornflowerblue;
+    color: black;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+section.diary ul li.card:hover {
+    transform:scale(1.2);
+    
+}
+
+section.diary ul li.card:hover h2,
+section.diary ul li.card:hover a,
+section.diary ul li.card:hover i
+{
+    color:white;
+}
+
